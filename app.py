@@ -22,7 +22,7 @@ def main():
     current_year = datetime.now().year
     year = st.sidebar.selectbox(
         "Select Year",
-        options=[current_year, current_year + 1],
+        options=[current_year, current_year + 1, current_year + 2],
         index=0
     )
     st.sidebar.markdown("<br/>", unsafe_allow_html=True)
